@@ -19,6 +19,7 @@ body, html{
     padding: 5px;
   }
  .box {
+            text-align: center;
             display: flex;
             flex-wrap: wrap;
           }
