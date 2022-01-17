@@ -33,3 +33,9 @@ ul {
   li a:hover {
     background-color: #3F4739;
   }
+
+  img{
+    text-align: center;
+    border-color: black;
+    border-width: 4px;
+  }
