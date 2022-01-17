@@ -2,7 +2,7 @@
 
 
 body, html{
-    background-color: #BACBA9;
+    background-color: #E1F4CB;
     text-align: center;
     cursor: url("small.png"), pointer;
 
@@ -16,10 +16,10 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #333;
+    background-color: #717568;
   }
   li {
-    float: left;
+    float: center;
   }
 
   li a {
@@ -30,3 +30,6 @@ ul {
     text-decoration: none;
   }
 
+  li a:hover {
+    background-color: #3F4739;
+  }
