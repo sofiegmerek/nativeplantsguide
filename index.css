@@ -15,6 +15,9 @@ body, html{
             flex-wrap: wrap;
           }
       
+    h1{
+        text-align: center;
+    }
 
 ul {
     list-style-type: none;
