@@ -2,7 +2,7 @@
 
 
 body, html{
-    background-color: #E1F4CB;
+    background-color: #9CC69B;
     text-align: center;
     cursor: url("small.png"), pointer;
 
@@ -16,7 +16,7 @@ ul {
     margin: 0;
     padding: 0;
     overflow: hidden;
-    background-color: #717568;
+    background-color:#D7F2BA;
   }
   li {
     float: left;
@@ -24,14 +24,14 @@ ul {
 
   li a {
     display: block;
-    color: white;
+    color:black;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
   }
 
   li a:hover {
-    background-color: #3F4739;
+    background-color:#BDE4A8;
   }
 
   img{
