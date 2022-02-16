@@ -1,13 +1,26 @@
 
-
-
+head{
+  margin: 0;
+}
 body, html{
+  background-color: #9CC69B;
+  text-align: center;
+  cursor: url("small.png"), pointer;
+
+  font-family: 'Atkinson Hyperlegible';font-size: 18px;
+
+    margin: auto
+
+} 
+p{
     background-color: #9CC69B;
     text-align: center;
     cursor: url("small.png"), pointer;
 
     font-family: 'Atkinson Hyperlegible';font-size: 18px;
-
+      max-width: 700px;
+      min-width: 100px;
+      margin: auto
 
 } 
 .row {
@@ -31,7 +44,7 @@ body, html{
     h1{
         text-align: center;
     }
-
+ 
 ul {
     list-style-type: none;
     margin: 0;
