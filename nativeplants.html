@@ -25,6 +25,11 @@
   width: 33.33%;
   padding: 5px;
 }
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
       </style>
 <body>
     <ul>
@@ -49,12 +54,14 @@
         Sages, also known as salvias are another great family of native plants for your garden. They come in many different colors, 
         styles, scents, and can provide beautiful color to your garden. Some sages can grow very 
         large so be sure you have enough room for them to grow. Butterflies, bees, and hummingbirds love them!
-       <div class = "column"> 
+        <div class="row">
+        <div class = "column"> 
         <img src= "photos/sage.jpeg" width ="350">
     </div>
     <div class = "column"> 
         <img src= "photos/salvia.jpeg" width ="350">
     </div>
+        </div>
 
 
     </div>
