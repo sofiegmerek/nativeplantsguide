@@ -19,6 +19,8 @@
           /* Hide the images by default */
           .mySlides {
             display: none;
+            border: 3px solid #fff;
+    padding: 20px;
           }
           
           /* Add a pointer when hovering over the thumbnail images */
@@ -77,7 +79,10 @@
             padding: 2px 16px;
             color: black;
             max-width: 700px;
-            margin: auto
+            margin: auto;
+            width: 50%;
+    float: right;
+    padding: 10px;
           }
           
           .row:after {
@@ -134,7 +139,7 @@ figure {
   width: 50%;
 }
       
-    </style>
+</style>
 
 </head>
 
@@ -155,9 +160,10 @@ figure {
   <a class="prev" onclick="plusSlides(-1)">&#10094;</a>
   <a class="next" onclick="plusSlides(1)">&#10095;</a>
     <!-- Full-width images with number text -->
-   <div class="mySlides">
+
+    <div class="mySlides">
       <div class="numbertext">1 / 6</div>
-        <img src="photos/poppy.jpg" style="width:400px">
+        <img src="photos/poppy2.jpg" style="width:400px">
         <div class="caption-container">
     
             <p>  <b>California Poppy </b><i>Eschscholzia californica</i><br>
@@ -189,12 +195,8 @@ figure {
       <div class="numbertext">3 / 6</div>
    
       <!--<div id="img-div">-->
-        <img class ="center" id="image" alt="yarrow" src="photos/yarrow.jpeg" style="width:400px">
-       <!-- <p id="img-quote">Yarrow is a great plant with many different flower color options. It can grow and bloom
-            year round! It usually stays compact as it grows and bees love it! The latin name is 
-        Achillea millefolium and it is native all across the state of California. To find out more about 
-    the yarrow plant you can look at the <a href="https://calscape.org/Achillea-millefolium-(Common-Yarrow)">Calscape</a> listing. </p>
-       --> <div class="caption-container">
+        <img src="photos/yarrow.jpeg" style="width:400px">
+       <div class="caption-container">
         <p> <b>Yarrow</b><i> Achillea millefolium</i><br>
           Yarrow is a great plant with many different flower color options. It can grow and bloom
             year round! It usually stays compact as it grows and bees love it! The latin name is 
@@ -212,7 +214,7 @@ figure {
               Sages, also known as salvias are another great family of native plants for your garden. They come in many different colors, 
         styles, scents, and can provide beautiful color to your garden. Some sages can grow very 
         large so be sure you have enough room for them to grow. Butterflies, bees, and hummingbirds love them! 
-        This picture is of a Saliva Desparado which has a simialr look to a white sage!
+        This picture is of a Saliva Desparado which has a similar look to a white sage!
         You can find out more on Calscapes page about sages: <a href="https://calscape.org/loc-California/Sage%20(all)?newsearch=1&srchcr=sc621a86dac945a">All about sages</a>
       </p>
           </div>   
@@ -241,10 +243,51 @@ figure {
             and color styles. Fun fact: you may notice for some manzanitas the leaves do not grow with the flat part towards the sun,
             but they grow vertically, this is because they are used to very sunny areas, and they adapted to take in sunlight
             from both sides of the leaves! You can learn more about manzanitas on <a href="https://calscape.org/loc-California/Manzanita%20(all)?srchcr=sc5ae8bd052ae99">Calscape</a>
-
             </p>    
     </div>
   </div>
+  <div class="mySlides">
+    <div class="numbertext">6 / 6</div>
+      <img src="photos/manzanita1.jpeg" style="width:400px">
+      <div class="caption-container">
+        <p>  <b>Greensphere Manzanita</b><i> Arctostaphylos 'Greensphere'</i><br>
+        This is the manzanita greensphere, part of the manzanita family! They come in both tree
+          and in bush form and are a fun plant to add to the garden. They come in many different growing styles
+          and color styles. Fun fact: you may notice for some manzanitas the leaves do not grow with the flat part towards the sun,
+          but they grow vertically, this is because they are used to very sunny areas, and they adapted to take in sunlight
+          from both sides of the leaves! You can learn more about manzanitas on <a href="https://calscape.org/loc-California/Manzanita%20(all)?srchcr=sc5ae8bd052ae99">Calscape</a>
+          </p>    
+  </div>
+</div>
+<div class="mySlides">
+  <div class="numbertext">7 / 6</div>
+    <img src="photos/matilija.jpg" style="width:400px">
+    <div class="caption-container">
+      <p>  <b>Matilija Poppy</b><i> Romneya coulteri</i><br>
+       This is the  matilija poppy, another beautiful native plant! These bushes have
+       large flowers with white petals and a yellow center. This is a beautiful flowering bush
+       that can withstand sun. This plant can grow very large and spread so it is best to have it in 
+       an area with lots of space. Pollinators love it as well! You can learn more about it on 
+       <a href= "https://calscape.org/loc-California/matilija(%20)?newsearch=1">Calscape.</a>
+
+      </p>    
+</div>
+</div>
+
+
+<div class="mySlides">
+  <div class="numbertext">8 / 6</div>
+    <img src="photos/buckwheat.jpg" style="width:400px">
+    <div class="caption-container">
+      <p>  <b>Rosy buckwheat and Shasta buckwheat </b><i> Eriogonum grande var. rubescens      </i><br>
+    This picture shows two beautiful buckwheat plants in bloom, the rosy buckwhat and the Shasta buckwheat.
+    These plants are another bush-type plant that pollinators love. They have a variety of different 
+    colors and styles based on the variety, so there are many options for your garden. The buckwheat bushes
+    typically like to spread and can get large, so make sure to have enough space. To learn more about
+    different buckwheats you can see the listing on <a href="https://calscape.org/loc-California/Buckwheat%20(all)?newsearch=1&srchcr=sc621c1ffdb2935">Calscape here.</a>
+      </p>     
+</div>
+</div>
 
   
   
@@ -257,7 +300,7 @@ figure {
     <!-- Thumbnail images -->
     <div class="row">
       <div class="column">
-        <img class="demo cursor" src="photos/poppy.jpg" style="width:100%" onclick="currentSlide(1)">
+        <img class="demo cursor" src="photos/poppy2.jpg" style="width:100%" onclick="currentSlide(1)">
       </div>
       <div class="column">
         <img class="demo cursor" src="photos/monkeyflower.jpeg" style="width:100%" onclick="currentSlide(2)" >
@@ -273,6 +316,12 @@ figure {
       </div>
       <div class="column">
         <img class="demo cursor" src="photos/manzanita1.jpeg" style="width:100%" onclick="currentSlide(6)">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="photos/matilija.jpg" style="width:100%" onclick="currentSlide(8)">
+      </div>
+      <div class="column">
+        <img class="demo cursor" src="photos/buckwheat.jpg" style="width:100%" onclick="currentSlide(9)">
       </div>
     </div>
   </div>
